@@ -1,7 +1,7 @@
 {
   "name": "vuenos-input-money",
   "description": "Package for component input money type",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "author": {
     "name": "Sơn Nguyễn",
