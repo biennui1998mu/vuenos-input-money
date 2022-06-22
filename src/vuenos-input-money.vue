@@ -20,11 +20,11 @@
   </div>
 </template>
 <script lang="ts">
-import {computed, ref, watch} from 'vue'
+import {computed, defineComponent, ref, watch} from 'vue'
 import {keypressCommon, pasteCommon, convertToText} from "./core/utils/common";
 import {PATTERN} from "./core/utils/systemConstant";
 
-export default {
+export default /*#__PURE__*/defineComponent({
   props: ['placeholder', 'suffix', 'maxLength', 'showText', 'disabled', 'error'],
   emits: ['getValue', 'blur'],
   setup(props: any, {emit}: any) {
@@ -93,9 +93,9 @@ export default {
       convertToText,
     }
   }
-}
+})
 </script>
-<style lang="scss">
+<style scoped>
 .currency-style {
   font-size: 12px;
   line-height: 18px;
@@ -121,37 +121,32 @@ export default {
   outline: 0;
   width: 100%;
   transition: all 0.15s linear;
+}
 
-  input {
-    height: 100%;
-    padding: 0 15px;
-    background: none;
-    border: none;
-    outline: none;
-    color: #606266;
-    cursor: auto;
-  }
+.input-money-style input {
+  height: 100%;
+  padding: 0 15px;
+  background: none;
+  border: none;
+  outline: none;
+  color: #606266;
+  cursor: auto;
+}
 
-  span {
-    padding-right: 5px;
-  }
+.input-money-style span {
+  padding-right: 5px;
 }
 
 .input-disable {
   cursor: not-allowed !important;
   color: #c0c4cc !important;
+}
 
-  &::placeholder {
-    color: #c0c4cc;
-  }
+.input-disable::placeholder {
+  color: #c0c4cc;
 }
 
 .input-error {
   border-color: #f56c6c !important;
 }
-
-//.input-enable {
-//  cursor: auto;
-//  color: #606266;
-//}
 </style>
