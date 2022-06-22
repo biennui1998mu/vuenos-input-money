@@ -1,6 +1,4 @@
-# vuenos-input-money
-
-## Package install
+### Package install
 
 ```
 npm install vuenos-input-money
