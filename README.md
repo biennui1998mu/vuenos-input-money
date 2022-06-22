@@ -109,4 +109,4 @@ v1.0.3
 
 ## Author
 
-* **Sơn Nguyễn** - *Initial work* - [ME](https://github.com/biennui1998mu)
+* **Sơn Nguyễn** - *Initial work* - [Sơn Nguyễn](https://github.com/biennui1998mu)
