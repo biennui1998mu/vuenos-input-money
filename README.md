@@ -8,7 +8,7 @@ npm install vuenos-input-money
 
 ```html
 
-<InputMoney ref="SFInputMoneyRef"
+<VuenosInputMoney ref="InputMoneyRef"
             @getValue="getMoneyVal"
             @blur="blurInput"
             :placeholder="'Số tiền'"
@@ -17,11 +17,11 @@ npm install vuenos-input-money
             :disabled="true"
             :error="true"
             :showText="true">
-</InputMoney>
+</VuenosInputMoney>
 ```
 
 ```typescript
-import InputMoney from "@/components/Shared/InputMoney/SFInputMoney.vue";
+import VuenosInputMoney from "vuenos-input-money";
 ```
 
 ### Get value input
