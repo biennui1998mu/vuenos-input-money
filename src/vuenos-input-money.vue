@@ -95,7 +95,7 @@ export default /*#__PURE__*/defineComponent({
   }
 })
 </script>
-<style scoped>
+<style scoped lang="scss">
 .currency-style {
   font-size: 12px;
   line-height: 18px;
@@ -121,29 +121,29 @@ export default /*#__PURE__*/defineComponent({
   outline: 0;
   width: 100%;
   transition: all 0.15s linear;
-}
 
-.input-money-style input {
-  height: 100%;
-  padding: 0 15px;
-  background: none;
-  border: none;
-  outline: none;
-  color: #606266;
-  cursor: auto;
-}
+  input {
+    height: 100%;
+    padding: 0 15px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #606266;
+    cursor: auto;
+  }
 
-.input-money-style span {
-  padding-right: 5px;
+  span {
+    padding-right: 5px;
+  }
 }
 
 .input-disable {
   cursor: not-allowed !important;
   color: #c0c4cc !important;
-}
 
-.input-disable::placeholder {
-  color: #c0c4cc;
+  &::placeholder {
+    color: #c0c4cc;
+  }
 }
 
 .input-error {

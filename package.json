@@ -1,7 +1,7 @@
 {
   "name": "vuenos-input-money",
   "description": "Package for component input money type",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "author": {
     "name": "Sơn Nguyễn",
@@ -10,6 +10,13 @@
     "linkedin": "https://www.linkedin.com/in/sonnguyendinhhai/"
   },
   "repository": "https://github.com/biennui1998mu/vuenos-input-money",
+
+  "keywords": [
+    "vue",
+    "vue3",
+    "vuenos-input-money",
+    "input money"
+  ],
 
   "main": "dist/vuenos-input-money.ssr.js",
   "browser": "dist/vuenos-input-money.esm.js",
