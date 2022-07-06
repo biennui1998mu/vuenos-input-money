@@ -1,7 +1,7 @@
 {
   "name": "vuenos-input-money",
   "description": "Package for component input money type",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "author": {
     "name": "Sơn Nguyễn",
@@ -41,6 +41,8 @@
   },
 
   "dependencies": {
+    "sass": "1.32.1",
+    "sass-loader": "8.0.2"
   },
 
   "devDependencies": {
